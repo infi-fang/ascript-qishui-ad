@@ -1,0 +1,24 @@
+# 发布产物：zip 是二进制黑盒，不入库（发给不用 git 的人时才用）
+*.zip
+releases/
+dist/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+
+# macOS / 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志与临时文件
+*.log
+*.tmp
+*.swp
+
+# IDE 本地状态
+.idea/
+.vscode/*
+!.vscode/settings.json

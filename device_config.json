@@ -1,0 +1,6 @@
+{
+  "host": "192.168.2.97",
+  "port": 9096,
+  "project": "qishuiAScriptProject",
+  "_note": "【他人使用前必改】host 是 iPhone 上 AScript App『开发者』页显示的局域网 IP，当前为原作者设备 192.168.2.97，接收方必须改成自己手机的 IP！换 WiFi/网络后 IP 也会变化，用 device.py scan 或在手机上查看后更新。port 默认 9096，若 App 显示其他端口以 App 为准。"
+}
